@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>泡面俱乐部</title>
+    <style>
+      body {
+        margin: 0;
+        background-color: rgb(212, 212, 212);
+        height: 100vh;
+      }
+      /* * {
+        border: 1px solid blue;
+      } */
+      .flex {
+        display: flex;
+      }
+      .column {
+        flex-direction: column;
+      }
+      .flex1 {
+        flex: 1;
+      }
+      .baiSe {
+        background-color: white;
+      }
+      .mg8 {
+        margin: 8px;
+      }
+      .mgt8 {
+        margin-top: 8px;
+      }
+      .mgl8 {
+        margin-left: 8px;
+      }
+      .mgr8 {
+        margin-right: 8px;
+      }
+      .mgb8 {
+        margin-bottom: 8px;
+      }
+      .daoHang {
+        padding: 10px;
+        font-size: 15px;
+        border-bottom: 1px solid #aaaaaa;
+        color: #636363;
+      }
+    </style>
+  </head>
+  <body class="flex column">
+    <!-- 头部区 -->
+    <div
+      style="
+        padding-left: 10px;
+        height: 80px;
+        align-items: center;
+        justify-content: flex-start;
+      "
+      class="flex baiSe"
+    >
+      <img
+        src="https://img95.699pic.com/xsj/17/un/tc.jpg%21/fh/300"
+        width="80px"
+        height="80px"
+        alt="头像"
+      />
+      <div style="padding-left: 10px">泡面俱乐部</div>
+    </div>
+    <!-- 主区 -->
+    <div style="overflow: auto" class="flex flex1">
+      <!-- 左区 -->
+      <div style="width: 120px" class="baiSe mgt8">
+        <div class="daoHang">导航</div>
+        <div class="daoHang">导航</div>
+        <div class="daoHang">导航</div>
+        <div class="daoHang">导航</div>
+        <div class="daoHang">导航</div>
+        <div class="daoHang">导航</div>
+      </div>
+      <!-- 中区 -->
+      <div class="flex1 flex column">
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+        <div style="height: 120px" class="baiSe mgt8 mgl8 mgr8">内容</div>
+      </div>
+      <!-- 右区 -->
+      <div style="width: 120px" class="flex column">
+        <!-- 信息区 -->
+        <div style="height: 300px" class="baiSe mgt8">
+          <div style="font-size: 15px">俱乐部简介</div>
+          <div style="font-size: 12px">一群人因工作相聚</div>
+          <div style="font-size: 12px">因泡面团结</div>
+        </div>
+        <!-- 链接区 -->
+        <div class="flex1 baiSe mgt8">
+          <a href="https://www.baidu.com/">百度一下</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
